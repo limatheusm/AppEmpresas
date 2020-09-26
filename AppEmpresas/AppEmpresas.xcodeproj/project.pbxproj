@@ -3,13 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		AB90BC8A0072EC3901E716D2 /* Pods_AppEmpresas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F342BAD325D3BA36B847F56A /* Pods_AppEmpresas.framework */; };
 		D1E48F664E971CBD336A463A /* Pods_AppEmpresas_AppEmpresasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3D04FA58C5BCCC3C992164 /* Pods_AppEmpresas_AppEmpresasUITests.framework */; };
 		E863D5F6B86CB901AD2F6A22 /* Pods_AppEmpresasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7AD13BDF0A3ABE5358F9F61 /* Pods_AppEmpresasTests.framework */; };
+		FE363DF3251FD9D600DABE8E /* AuthKeyChainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE363DF2251FD9D600DABE8E /* AuthKeyChainManager.swift */; };
+		FE363DF8251FDEA600DABE8E /* AuthCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE363DF7251FDEA600DABE8E /* AuthCredentials.swift */; };
+		FE739DC8251F76AA00C3A30E /* Dictionary+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE739DC7251F76AA00C3A30E /* Dictionary+Add.swift */; };
+		FE8C54AB251FEE5500AD8CE9 /* AuthPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C54AA251FEE5500AD8CE9 /* AuthPlugin.swift */; };
 		FE90F0C7251EB762006F6691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE90F0C6251EB762006F6691 /* AppDelegate.swift */; };
 		FE90F0C9251EB762006F6691 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE90F0C8251EB762006F6691 /* SceneDelegate.swift */; };
 		FE90F0CB251EB762006F6691 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE90F0CA251EB762006F6691 /* ViewController.swift */; };
@@ -18,6 +22,20 @@
 		FE90F0D3251EB767006F6691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE90F0D1251EB767006F6691 /* LaunchScreen.storyboard */; };
 		FE90F0DE251EB767006F6691 /* AppEmpresasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE90F0DD251EB767006F6691 /* AppEmpresasTests.swift */; };
 		FE90F0E9251EB767006F6691 /* AppEmpresasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE90F0E8251EB767006F6691 /* AppEmpresasUITests.swift */; };
+		FEA3A24A251ECA8B009B4994 /* EnterpriseDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA3A249251ECA8B009B4994 /* EnterpriseDataManager.swift */; };
+		FEA9B1DC251FB7C8003B1B29 /* EnterpriseRemoteRepositoryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9B1DB251FB7C8003B1B29 /* EnterpriseRemoteRepositoryProvider.swift */; };
+		FEA9B1E1251FB849003B1B29 /* EnterpriseServiceProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9B1E0251FB849003B1B29 /* EnterpriseServiceProtocols.swift */; };
+		FEA9B1F2251FB8EA003B1B29 /* EnterpriseAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9B1F1251FB8EA003B1B29 /* EnterpriseAPIManager.swift */; };
+		FEA9B1F8251FC71B003B1B29 /* AuthAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9B1F7251FC71B003B1B29 /* AuthAPI.swift */; };
+		FEA9B1FD251FC866003B1B29 /* AuthServiceProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9B1FC251FC866003B1B29 /* AuthServiceProtocols.swift */; };
+		FEA9B202251FCAA6003B1B29 /* AuthDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9B201251FCAA6003B1B29 /* AuthDataManager.swift */; };
+		FEA9B207251FCB72003B1B29 /* AuthRemoteRepositoryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9B206251FCB72003B1B29 /* AuthRemoteRepositoryProvider.swift */; };
+		FEA9B20C251FCBD7003B1B29 /* AuthAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9B20B251FCBD7003B1B29 /* AuthAPIManager.swift */; };
+		FEA9B216251FCD91003B1B29 /* ResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9B215251FCD91003B1B29 /* ResponseError.swift */; };
+		FEA9B221251FCDEE003B1B29 /* ResponseErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9B220251FCDEE003B1B29 /* ResponseErrorHandler.swift */; };
+		FEA9B227251FD105003B1B29 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9B226251FD105003B1B29 /* AuthResponse.swift */; };
+		FECB3068251F833B00347901 /* Enterprise.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECB3067251F833B00347901 /* Enterprise.swift */; };
+		FECB3074251F8F1E00347901 /* EnterpriseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECB3073251F8F1E00347901 /* EnterpriseAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +65,10 @@
 		E0E09F424293A3C408EEBE73 /* Pods-AppEmpresas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppEmpresas.debug.xcconfig"; path = "Target Support Files/Pods-AppEmpresas/Pods-AppEmpresas.debug.xcconfig"; sourceTree = "<group>"; };
 		EB3D04FA58C5BCCC3C992164 /* Pods_AppEmpresas_AppEmpresasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppEmpresas_AppEmpresasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F342BAD325D3BA36B847F56A /* Pods_AppEmpresas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppEmpresas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE363DF2251FD9D600DABE8E /* AuthKeyChainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthKeyChainManager.swift; sourceTree = "<group>"; };
+		FE363DF7251FDEA600DABE8E /* AuthCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCredentials.swift; sourceTree = "<group>"; };
+		FE739DC7251F76AA00C3A30E /* Dictionary+Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Add.swift"; sourceTree = "<group>"; };
+		FE8C54AA251FEE5500AD8CE9 /* AuthPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPlugin.swift; sourceTree = "<group>"; };
 		FE90F0C3251EB762006F6691 /* AppEmpresas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppEmpresas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE90F0C6251EB762006F6691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE90F0C8251EB762006F6691 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +83,20 @@
 		FE90F0E4251EB767006F6691 /* AppEmpresasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppEmpresasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE90F0E8251EB767006F6691 /* AppEmpresasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEmpresasUITests.swift; sourceTree = "<group>"; };
 		FE90F0EA251EB767006F6691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA3A249251ECA8B009B4994 /* EnterpriseDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterpriseDataManager.swift; sourceTree = "<group>"; };
+		FEA9B1DB251FB7C8003B1B29 /* EnterpriseRemoteRepositoryProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterpriseRemoteRepositoryProvider.swift; sourceTree = "<group>"; };
+		FEA9B1E0251FB849003B1B29 /* EnterpriseServiceProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterpriseServiceProtocols.swift; sourceTree = "<group>"; };
+		FEA9B1F1251FB8EA003B1B29 /* EnterpriseAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterpriseAPIManager.swift; sourceTree = "<group>"; };
+		FEA9B1F7251FC71B003B1B29 /* AuthAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAPI.swift; sourceTree = "<group>"; };
+		FEA9B1FC251FC866003B1B29 /* AuthServiceProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServiceProtocols.swift; sourceTree = "<group>"; };
+		FEA9B201251FCAA6003B1B29 /* AuthDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthDataManager.swift; sourceTree = "<group>"; };
+		FEA9B206251FCB72003B1B29 /* AuthRemoteRepositoryProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRemoteRepositoryProvider.swift; sourceTree = "<group>"; };
+		FEA9B20B251FCBD7003B1B29 /* AuthAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAPIManager.swift; sourceTree = "<group>"; };
+		FEA9B215251FCD91003B1B29 /* ResponseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseError.swift; sourceTree = "<group>"; };
+		FEA9B220251FCDEE003B1B29 /* ResponseErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseErrorHandler.swift; sourceTree = "<group>"; };
+		FEA9B226251FD105003B1B29 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		FECB3067251F833B00347901 /* Enterprise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enterprise.swift; sourceTree = "<group>"; };
+		FECB3073251F8F1E00347901 /* EnterpriseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterpriseAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +147,31 @@
 				93E8F91714FC6AE3D1F6FF92 /* Pods-AppEmpresasTests.debug.xcconfig */,
 				955FEA84A5393FF984A29341 /* Pods-AppEmpresasTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		FE363DFC251FDEAB00DABE8E /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				FE363DF7251FDEA600DABE8E /* AuthCredentials.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		FE739DC6251F769000C3A30E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FE739DC7251F76AA00C3A30E /* Dictionary+Add.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FE8C54A9251FEE3500AD8CE9 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				FE8C54AA251FEE5500AD8CE9 /* AuthPlugin.swift */,
+			);
+			path = Plugins;
 			sourceTree = "<group>";
 		};
 		FE90F0BA251EB762006F6691 = {
@@ -140,13 +199,14 @@
 		FE90F0C5251EB762006F6691 /* AppEmpresas */ = {
 			isa = PBXGroup;
 			children = (
+				FECB3080251F8F6A00347901 /* SupportingFiles */,
+				FECB3072251F8EEE00347901 /* Services */,
+				FE739DC6251F769000C3A30E /* Extensions */,
 				FE90F0C6251EB762006F6691 /* AppDelegate.swift */,
 				FE90F0C8251EB762006F6691 /* SceneDelegate.swift */,
 				FE90F0CA251EB762006F6691 /* ViewController.swift */,
 				FE90F0CC251EB762006F6691 /* Main.storyboard */,
 				FE90F0CF251EB767006F6691 /* Assets.xcassets */,
-				FE90F0D1251EB767006F6691 /* LaunchScreen.storyboard */,
-				FE90F0D4251EB767006F6691 /* Info.plist */,
 			);
 			path = AppEmpresas;
 			sourceTree = "<group>";
@@ -169,6 +229,95 @@
 			path = AppEmpresasUITests;
 			sourceTree = "<group>";
 		};
+		FEA9B1D5251FAB28003B1B29 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				FE363DFC251FDEAB00DABE8E /* Entities */,
+				FE363DF2251FD9D600DABE8E /* AuthKeyChainManager.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		FEA9B1F6251FC6FF003B1B29 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				FEA9B225251FD0FD003B1B29 /* Entities */,
+				FEA9B1FC251FC866003B1B29 /* AuthServiceProtocols.swift */,
+				FEA9B201251FCAA6003B1B29 /* AuthDataManager.swift */,
+				FEA9B206251FCB72003B1B29 /* AuthRemoteRepositoryProvider.swift */,
+				FEA9B20B251FCBD7003B1B29 /* AuthAPIManager.swift */,
+				FEA9B1F7251FC71B003B1B29 /* AuthAPI.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		FEA9B213251FCD78003B1B29 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FE8C54A9251FEE3500AD8CE9 /* Plugins */,
+				FEA9B214251FCD7E003B1B29 /* Entities */,
+				FEA9B220251FCDEE003B1B29 /* ResponseErrorHandler.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FEA9B214251FCD7E003B1B29 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				FEA9B215251FCD91003B1B29 /* ResponseError.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		FEA9B225251FD0FD003B1B29 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				FEA9B226251FD105003B1B29 /* AuthResponse.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		FECB3066251F81D600347901 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				FECB3067251F833B00347901 /* Enterprise.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		FECB3072251F8EEE00347901 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FEA9B213251FCD78003B1B29 /* Common */,
+				FEA9B1D5251FAB28003B1B29 /* Security */,
+				FEA9B1F6251FC6FF003B1B29 /* Auth */,
+				FECB308F251F8FD800347901 /* Enterprise */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FECB3080251F8F6A00347901 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FE90F0D1251EB767006F6691 /* LaunchScreen.storyboard */,
+				FE90F0D4251EB767006F6691 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		FECB308F251F8FD800347901 /* Enterprise */ = {
+			isa = PBXGroup;
+			children = (
+				FECB3066251F81D600347901 /* Entities */,
+				FEA9B1E0251FB849003B1B29 /* EnterpriseServiceProtocols.swift */,
+				FEA3A249251ECA8B009B4994 /* EnterpriseDataManager.swift */,
+				FEA9B1DB251FB7C8003B1B29 /* EnterpriseRemoteRepositoryProvider.swift */,
+				FEA9B1F1251FB8EA003B1B29 /* EnterpriseAPIManager.swift */,
+				FECB3073251F8F1E00347901 /* EnterpriseAPI.swift */,
+			);
+			path = Enterprise;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,6 +329,7 @@
 				FE90F0BF251EB762006F6691 /* Sources */,
 				FE90F0C0251EB762006F6691 /* Frameworks */,
 				FE90F0C1251EB762006F6691 /* Resources */,
+				E1FC0276AFB9BE779253E760 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +367,7 @@
 				FE90F0E0251EB767006F6691 /* Sources */,
 				FE90F0E1251EB767006F6691 /* Frameworks */,
 				FE90F0E2251EB767006F6691 /* Resources */,
+				AB39C040D17B321E3FE99FDF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -342,6 +493,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AB39C040D17B321E3FE99FDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppEmpresas-AppEmpresasUITests/Pods-AppEmpresas-AppEmpresasUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppEmpresas-AppEmpresasUITests/Pods-AppEmpresas-AppEmpresasUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppEmpresas-AppEmpresasUITests/Pods-AppEmpresas-AppEmpresasUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1FC0276AFB9BE779253E760 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppEmpresas/Pods-AppEmpresas-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppEmpresas/Pods-AppEmpresas-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppEmpresas/Pods-AppEmpresas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FDF440F8E1CF031796237B1B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,9 +556,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA3A24A251ECA8B009B4994 /* EnterpriseDataManager.swift in Sources */,
+				FE739DC8251F76AA00C3A30E /* Dictionary+Add.swift in Sources */,
+				FEA9B207251FCB72003B1B29 /* AuthRemoteRepositoryProvider.swift in Sources */,
+				FEA9B221251FCDEE003B1B29 /* ResponseErrorHandler.swift in Sources */,
+				FEA9B1FD251FC866003B1B29 /* AuthServiceProtocols.swift in Sources */,
 				FE90F0CB251EB762006F6691 /* ViewController.swift in Sources */,
 				FE90F0C7251EB762006F6691 /* AppDelegate.swift in Sources */,
+				FEA9B202251FCAA6003B1B29 /* AuthDataManager.swift in Sources */,
+				FEA9B1F8251FC71B003B1B29 /* AuthAPI.swift in Sources */,
+				FEA9B20C251FCBD7003B1B29 /* AuthAPIManager.swift in Sources */,
+				FECB3068251F833B00347901 /* Enterprise.swift in Sources */,
+				FEA9B1E1251FB849003B1B29 /* EnterpriseServiceProtocols.swift in Sources */,
 				FE90F0C9251EB762006F6691 /* SceneDelegate.swift in Sources */,
+				FEA9B216251FCD91003B1B29 /* ResponseError.swift in Sources */,
+				FE8C54AB251FEE5500AD8CE9 /* AuthPlugin.swift in Sources */,
+				FECB3074251F8F1E00347901 /* EnterpriseAPI.swift in Sources */,
+				FEA9B1DC251FB7C8003B1B29 /* EnterpriseRemoteRepositoryProvider.swift in Sources */,
+				FEA9B227251FD105003B1B29 /* AuthResponse.swift in Sources */,
+				FEA9B1F2251FB8EA003B1B29 /* EnterpriseAPIManager.swift in Sources */,
+				FE363DF8251FDEA600DABE8E /* AuthCredentials.swift in Sources */,
+				FE363DF3251FD9D600DABE8E /* AuthKeyChainManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,7 +755,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3TBYKSQUS6;
-				INFOPLIST_FILE = AppEmpresas/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AppEmpresas/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -572,7 +775,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3TBYKSQUS6;
-				INFOPLIST_FILE = AppEmpresas/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AppEmpresas/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

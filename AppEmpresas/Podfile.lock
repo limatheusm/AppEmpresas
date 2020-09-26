@@ -1,3 +1,26 @@
-PODFILE CHECKSUM: a33bb59dcb77873d650d319a36e2bd433c01b58d
+PODS:
+  - Alamofire (5.2.2)
+  - KeychainSwift (19.0.0)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+
+DEPENDENCIES:
+  - KeychainSwift
+  - Moya
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - KeychainSwift
+    - Moya
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  KeychainSwift: a06190cf933ad46b1e0abc3d77d29c06331715c7
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+
+PODFILE CHECKSUM: a33dece86e1bd83d7fe040286ec07ba2aa0b6ef9
 
 COCOAPODS: 1.9.3

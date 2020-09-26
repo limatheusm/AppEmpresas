@@ -6,6 +6,8 @@ target 'AppEmpresas' do
   use_frameworks!
 
   # Pods for AppEmpresas
+  pod 'Moya'
+  pod 'KeychainSwift'
 
   target 'AppEmpresasTests' do
     inherit! :search_paths
