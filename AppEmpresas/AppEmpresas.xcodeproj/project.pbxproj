@@ -14,10 +14,29 @@
 		FE363DF8251FDEA600DABE8E /* AuthCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE363DF7251FDEA600DABE8E /* AuthCredentials.swift */; };
 		FE739DC8251F76AA00C3A30E /* Dictionary+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE739DC7251F76AA00C3A30E /* Dictionary+Add.swift */; };
 		FE8C54AB251FEE5500AD8CE9 /* AuthPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C54AA251FEE5500AD8CE9 /* AuthPlugin.swift */; };
+		FE8C54B3251FF1C500AD8CE9 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C54B1251FF1C500AD8CE9 /* AuthViewController.swift */; };
+		FE8C54B4251FF1C500AD8CE9 /* AuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE8C54B2251FF1C500AD8CE9 /* AuthViewController.xib */; };
+		FE8C54BF251FF2BE00AD8CE9 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C54BE251FF2BE00AD8CE9 /* LoadingView.swift */; };
+		FE8C54E0252005C000AD8CE9 /* UIView+AddSubviewAndSetupConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C54DF252005C000AD8CE9 /* UIView+AddSubviewAndSetupConstraints.swift */; };
+		FE8C55012520193200AD8CE9 /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE8C54F32520193100AD8CE9 /* Rubik-BlackItalic.ttf */; };
+		FE8C55022520193200AD8CE9 /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE8C54F42520193100AD8CE9 /* Rubik-MediumItalic.ttf */; };
+		FE8C55032520193200AD8CE9 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE8C54F52520193100AD8CE9 /* Rubik-Medium.ttf */; };
+		FE8C55042520193200AD8CE9 /* Rubik-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE8C54F62520193100AD8CE9 /* Rubik-ExtraBoldItalic.ttf */; };
+		FE8C55052520193200AD8CE9 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE8C54F72520193100AD8CE9 /* Rubik-Light.ttf */; };
+		FE8C55062520193200AD8CE9 /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE8C54F82520193100AD8CE9 /* Rubik-BoldItalic.ttf */; };
+		FE8C55072520193200AD8CE9 /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE8C54F92520193100AD8CE9 /* Rubik-Italic.ttf */; };
+		FE8C55082520193200AD8CE9 /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE8C54FA2520193200AD8CE9 /* Rubik-SemiBold.ttf */; };
+		FE8C55092520193200AD8CE9 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE8C54FB2520193200AD8CE9 /* Rubik-Black.ttf */; };
+		FE8C550A2520193200AD8CE9 /* Rubik-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE8C54FC2520193200AD8CE9 /* Rubik-ExtraBold.ttf */; };
+		FE8C550B2520193200AD8CE9 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE8C54FD2520193200AD8CE9 /* Rubik-Bold.ttf */; };
+		FE8C550C2520193200AD8CE9 /* Rubik-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE8C54FE2520193200AD8CE9 /* Rubik-SemiBoldItalic.ttf */; };
+		FE8C550D2520193200AD8CE9 /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE8C54FF2520193200AD8CE9 /* Rubik-LightItalic.ttf */; };
+		FE8C550E2520193200AD8CE9 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE8C55002520193200AD8CE9 /* Rubik-Regular.ttf */; };
+		FE8C551825201B8D00AD8CE9 /* UIColor+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C551725201B8D00AD8CE9 /* UIColor+CustomColors.swift */; };
+		FE8C552F252024A900AD8CE9 /* TextInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C552E252024A900AD8CE9 /* TextInputView.swift */; };
+		FE8C55342520253800AD8CE9 /* TextInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE8C55332520253800AD8CE9 /* TextInputView.xib */; };
 		FE90F0C7251EB762006F6691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE90F0C6251EB762006F6691 /* AppDelegate.swift */; };
 		FE90F0C9251EB762006F6691 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE90F0C8251EB762006F6691 /* SceneDelegate.swift */; };
-		FE90F0CB251EB762006F6691 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE90F0CA251EB762006F6691 /* ViewController.swift */; };
-		FE90F0CE251EB762006F6691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE90F0CC251EB762006F6691 /* Main.storyboard */; };
 		FE90F0D0251EB767006F6691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE90F0CF251EB767006F6691 /* Assets.xcassets */; };
 		FE90F0D3251EB767006F6691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE90F0D1251EB767006F6691 /* LaunchScreen.storyboard */; };
 		FE90F0DE251EB767006F6691 /* AppEmpresasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE90F0DD251EB767006F6691 /* AppEmpresasTests.swift */; };
@@ -34,6 +53,19 @@
 		FEA9B216251FCD91003B1B29 /* ResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9B215251FCD91003B1B29 /* ResponseError.swift */; };
 		FEA9B221251FCDEE003B1B29 /* ResponseErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9B220251FCDEE003B1B29 /* ResponseErrorHandler.swift */; };
 		FEA9B227251FD105003B1B29 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9B226251FD105003B1B29 /* AuthResponse.swift */; };
+		FEB4475525203587008D6C1A /* PasswordTextInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB4475425203587008D6C1A /* PasswordTextInputView.swift */; };
+		FEB4475A25203794008D6C1A /* EmailTextInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB4475925203794008D6C1A /* EmailTextInputView.swift */; };
+		FEB4476025203C84008D6C1A /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB4475F25203C84008D6C1A /* LoadingIndicator.swift */; };
+		FEB4476825204580008D6C1A /* LoadingIndicator.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB4476725204580008D6C1A /* LoadingIndicator.xib */; };
+		FEB4477925204B24008D6C1A /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB4477825204B24008D6C1A /* UIView+Animation.swift */; };
+		FEB4477F25204E44008D6C1A /* KeyboardStateListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB4477E25204E44008D6C1A /* KeyboardStateListener.swift */; };
+		FEB447842520BF79008D6C1A /* AuthContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB447832520BF79008D6C1A /* AuthContract.swift */; };
+		FEB447922520C44E008D6C1A /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB447912520C44E008D6C1A /* AuthRouter.swift */; };
+		FEB447972520C4BE008D6C1A /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB447962520C4BE008D6C1A /* Protocols.swift */; };
+		FEB4479C2520C64B008D6C1A /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB4479B2520C64B008D6C1A /* RootRouter.swift */; };
+		FEB447AA2520D318008D6C1A /* AuthPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB447A92520D318008D6C1A /* AuthPresenter.swift */; };
+		FEB447AF2520D323008D6C1A /* AuthInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB447AE2520D323008D6C1A /* AuthInteractor.swift */; };
+		FEB447C625214547008D6C1A /* String+IsEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB447C525214547008D6C1A /* String+IsEmpty.swift */; };
 		FECB3068251F833B00347901 /* Enterprise.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECB3067251F833B00347901 /* Enterprise.swift */; };
 		FECB3074251F8F1E00347901 /* EnterpriseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECB3073251F8F1E00347901 /* EnterpriseAPI.swift */; };
 /* End PBXBuildFile section */
@@ -69,11 +101,30 @@
 		FE363DF7251FDEA600DABE8E /* AuthCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCredentials.swift; sourceTree = "<group>"; };
 		FE739DC7251F76AA00C3A30E /* Dictionary+Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Add.swift"; sourceTree = "<group>"; };
 		FE8C54AA251FEE5500AD8CE9 /* AuthPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPlugin.swift; sourceTree = "<group>"; };
+		FE8C54B1251FF1C500AD8CE9 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		FE8C54B2251FF1C500AD8CE9 /* AuthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthViewController.xib; sourceTree = "<group>"; };
+		FE8C54BE251FF2BE00AD8CE9 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		FE8C54DF252005C000AD8CE9 /* UIView+AddSubviewAndSetupConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AddSubviewAndSetupConstraints.swift"; sourceTree = "<group>"; };
+		FE8C54F32520193100AD8CE9 /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		FE8C54F42520193100AD8CE9 /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		FE8C54F52520193100AD8CE9 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		FE8C54F62520193100AD8CE9 /* Rubik-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		FE8C54F72520193100AD8CE9 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		FE8C54F82520193100AD8CE9 /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FE8C54F92520193100AD8CE9 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		FE8C54FA2520193200AD8CE9 /* Rubik-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-SemiBold.ttf"; sourceTree = "<group>"; };
+		FE8C54FB2520193200AD8CE9 /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		FE8C54FC2520193200AD8CE9 /* Rubik-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-ExtraBold.ttf"; sourceTree = "<group>"; };
+		FE8C54FD2520193200AD8CE9 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		FE8C54FE2520193200AD8CE9 /* Rubik-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		FE8C54FF2520193200AD8CE9 /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		FE8C55002520193200AD8CE9 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		FE8C551725201B8D00AD8CE9 /* UIColor+CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColors.swift"; sourceTree = "<group>"; };
+		FE8C552E252024A900AD8CE9 /* TextInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputView.swift; sourceTree = "<group>"; };
+		FE8C55332520253800AD8CE9 /* TextInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextInputView.xib; sourceTree = "<group>"; };
 		FE90F0C3251EB762006F6691 /* AppEmpresas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppEmpresas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE90F0C6251EB762006F6691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE90F0C8251EB762006F6691 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FE90F0CA251EB762006F6691 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FE90F0CD251EB762006F6691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE90F0CF251EB767006F6691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE90F0D2251EB767006F6691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE90F0D4251EB767006F6691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,6 +146,19 @@
 		FEA9B215251FCD91003B1B29 /* ResponseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseError.swift; sourceTree = "<group>"; };
 		FEA9B220251FCDEE003B1B29 /* ResponseErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseErrorHandler.swift; sourceTree = "<group>"; };
 		FEA9B226251FD105003B1B29 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		FEB4475425203587008D6C1A /* PasswordTextInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextInputView.swift; sourceTree = "<group>"; };
+		FEB4475925203794008D6C1A /* EmailTextInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextInputView.swift; sourceTree = "<group>"; };
+		FEB4475F25203C84008D6C1A /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
+		FEB4476725204580008D6C1A /* LoadingIndicator.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingIndicator.xib; sourceTree = "<group>"; };
+		FEB4477825204B24008D6C1A /* UIView+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animation.swift"; sourceTree = "<group>"; };
+		FEB4477E25204E44008D6C1A /* KeyboardStateListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardStateListener.swift; sourceTree = "<group>"; };
+		FEB447832520BF79008D6C1A /* AuthContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthContract.swift; sourceTree = "<group>"; };
+		FEB447912520C44E008D6C1A /* AuthRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
+		FEB447962520C4BE008D6C1A /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		FEB4479B2520C64B008D6C1A /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		FEB447A92520D318008D6C1A /* AuthPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPresenter.swift; sourceTree = "<group>"; };
+		FEB447AE2520D323008D6C1A /* AuthInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthInteractor.swift; sourceTree = "<group>"; };
+		FEB447C525214547008D6C1A /* String+IsEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+IsEmpty.swift"; sourceTree = "<group>"; };
 		FECB3067251F833B00347901 /* Enterprise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enterprise.swift; sourceTree = "<group>"; };
 		FECB3073251F8F1E00347901 /* EnterpriseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterpriseAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -162,6 +226,10 @@
 			isa = PBXGroup;
 			children = (
 				FE739DC7251F76AA00C3A30E /* Dictionary+Add.swift */,
+				FE8C54DF252005C000AD8CE9 /* UIView+AddSubviewAndSetupConstraints.swift */,
+				FE8C551725201B8D00AD8CE9 /* UIColor+CustomColors.swift */,
+				FEB4477825204B24008D6C1A /* UIView+Animation.swift */,
+				FEB447C525214547008D6C1A /* String+IsEmpty.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -172,6 +240,88 @@
 				FE8C54AA251FEE5500AD8CE9 /* AuthPlugin.swift */,
 			);
 			path = Plugins;
+			sourceTree = "<group>";
+		};
+		FE8C54AF251FF1A400AD8CE9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FE8C54B0251FF1AC00AD8CE9 /* Auth */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FE8C54B0251FF1AC00AD8CE9 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				FE8C54B1251FF1C500AD8CE9 /* AuthViewController.swift */,
+				FE8C54B2251FF1C500AD8CE9 /* AuthViewController.xib */,
+				FEB447832520BF79008D6C1A /* AuthContract.swift */,
+				FEB447912520C44E008D6C1A /* AuthRouter.swift */,
+				FEB447A92520D318008D6C1A /* AuthPresenter.swift */,
+				FEB447AE2520D323008D6C1A /* AuthInteractor.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		FE8C54BB251FF29C00AD8CE9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FEB4477D25204E37008D6C1A /* Listeners */,
+				FE8C54BC251FF2A200AD8CE9 /* Components */,
+				FEB447962520C4BE008D6C1A /* Protocols.swift */,
+				FEB4479B2520C64B008D6C1A /* RootRouter.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FE8C54BC251FF2A200AD8CE9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FE8C54D3251FF70200AD8CE9 /* TextInputView */,
+				FEB4475E25203C18008D6C1A /* LoadingIndicator */,
+				FE8C54BD251FF2A800AD8CE9 /* LoadingView */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FE8C54BD251FF2A800AD8CE9 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				FE8C54BE251FF2BE00AD8CE9 /* LoadingView.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		FE8C54D3251FF70200AD8CE9 /* TextInputView */ = {
+			isa = PBXGroup;
+			children = (
+				FE8C552E252024A900AD8CE9 /* TextInputView.swift */,
+				FE8C55332520253800AD8CE9 /* TextInputView.xib */,
+				FEB4475425203587008D6C1A /* PasswordTextInputView.swift */,
+				FEB4475925203794008D6C1A /* EmailTextInputView.swift */,
+			);
+			path = TextInputView;
+			sourceTree = "<group>";
+		};
+		FE8C54EF2520190100AD8CE9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FE8C54FB2520193200AD8CE9 /* Rubik-Black.ttf */,
+				FE8C54F32520193100AD8CE9 /* Rubik-BlackItalic.ttf */,
+				FE8C54FD2520193200AD8CE9 /* Rubik-Bold.ttf */,
+				FE8C54F82520193100AD8CE9 /* Rubik-BoldItalic.ttf */,
+				FE8C54FC2520193200AD8CE9 /* Rubik-ExtraBold.ttf */,
+				FE8C54F62520193100AD8CE9 /* Rubik-ExtraBoldItalic.ttf */,
+				FE8C54F92520193100AD8CE9 /* Rubik-Italic.ttf */,
+				FE8C54F72520193100AD8CE9 /* Rubik-Light.ttf */,
+				FE8C54FF2520193200AD8CE9 /* Rubik-LightItalic.ttf */,
+				FE8C54F52520193100AD8CE9 /* Rubik-Medium.ttf */,
+				FE8C54F42520193100AD8CE9 /* Rubik-MediumItalic.ttf */,
+				FE8C55002520193200AD8CE9 /* Rubik-Regular.ttf */,
+				FE8C54FA2520193200AD8CE9 /* Rubik-SemiBold.ttf */,
+				FE8C54FE2520193200AD8CE9 /* Rubik-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		FE90F0BA251EB762006F6691 = {
@@ -199,13 +349,12 @@
 		FE90F0C5251EB762006F6691 /* AppEmpresas */ = {
 			isa = PBXGroup;
 			children = (
+				FEB447CA2521525F008D6C1A /* App */,
 				FECB3080251F8F6A00347901 /* SupportingFiles */,
+				FE8C54BB251FF29C00AD8CE9 /* Common */,
 				FECB3072251F8EEE00347901 /* Services */,
+				FE8C54AF251FF1A400AD8CE9 /* Modules */,
 				FE739DC6251F769000C3A30E /* Extensions */,
-				FE90F0C6251EB762006F6691 /* AppDelegate.swift */,
-				FE90F0C8251EB762006F6691 /* SceneDelegate.swift */,
-				FE90F0CA251EB762006F6691 /* ViewController.swift */,
-				FE90F0CC251EB762006F6691 /* Main.storyboard */,
 				FE90F0CF251EB767006F6691 /* Assets.xcassets */,
 			);
 			path = AppEmpresas;
@@ -277,6 +426,32 @@
 			path = Entities;
 			sourceTree = "<group>";
 		};
+		FEB4475E25203C18008D6C1A /* LoadingIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				FEB4475F25203C84008D6C1A /* LoadingIndicator.swift */,
+				FEB4476725204580008D6C1A /* LoadingIndicator.xib */,
+			);
+			path = LoadingIndicator;
+			sourceTree = "<group>";
+		};
+		FEB4477D25204E37008D6C1A /* Listeners */ = {
+			isa = PBXGroup;
+			children = (
+				FEB4477E25204E44008D6C1A /* KeyboardStateListener.swift */,
+			);
+			path = Listeners;
+			sourceTree = "<group>";
+		};
+		FEB447CA2521525F008D6C1A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FE90F0C6251EB762006F6691 /* AppDelegate.swift */,
+				FE90F0C8251EB762006F6691 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		FECB3066251F81D600347901 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,6 +474,7 @@
 		FECB3080251F8F6A00347901 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				FE8C54EF2520190100AD8CE9 /* Fonts */,
 				FE90F0D1251EB767006F6691 /* LaunchScreen.storyboard */,
 				FE90F0D4251EB767006F6691 /* Info.plist */,
 			);
@@ -426,9 +602,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE8C54B4251FF1C500AD8CE9 /* AuthViewController.xib in Resources */,
+				FE8C550A2520193200AD8CE9 /* Rubik-ExtraBold.ttf in Resources */,
+				FE8C55082520193200AD8CE9 /* Rubik-SemiBold.ttf in Resources */,
+				FE8C550D2520193200AD8CE9 /* Rubik-LightItalic.ttf in Resources */,
 				FE90F0D3251EB767006F6691 /* LaunchScreen.storyboard in Resources */,
+				FE8C55012520193200AD8CE9 /* Rubik-BlackItalic.ttf in Resources */,
+				FE8C550B2520193200AD8CE9 /* Rubik-Bold.ttf in Resources */,
+				FEB4476825204580008D6C1A /* LoadingIndicator.xib in Resources */,
+				FE8C55042520193200AD8CE9 /* Rubik-ExtraBoldItalic.ttf in Resources */,
 				FE90F0D0251EB767006F6691 /* Assets.xcassets in Resources */,
-				FE90F0CE251EB762006F6691 /* Main.storyboard in Resources */,
+				FE8C55022520193200AD8CE9 /* Rubik-MediumItalic.ttf in Resources */,
+				FE8C55062520193200AD8CE9 /* Rubik-BoldItalic.ttf in Resources */,
+				FE8C55072520193200AD8CE9 /* Rubik-Italic.ttf in Resources */,
+				FE8C55342520253800AD8CE9 /* TextInputView.xib in Resources */,
+				FE8C55092520193200AD8CE9 /* Rubik-Black.ttf in Resources */,
+				FE8C55052520193200AD8CE9 /* Rubik-Light.ttf in Resources */,
+				FE8C550E2520193200AD8CE9 /* Rubik-Regular.ttf in Resources */,
+				FE8C550C2520193200AD8CE9 /* Rubik-SemiBoldItalic.ttf in Resources */,
+				FE8C55032520193200AD8CE9 /* Rubik-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,27 +748,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEB447AF2520D323008D6C1A /* AuthInteractor.swift in Sources */,
+				FE8C54B3251FF1C500AD8CE9 /* AuthViewController.swift in Sources */,
 				FEA3A24A251ECA8B009B4994 /* EnterpriseDataManager.swift in Sources */,
 				FE739DC8251F76AA00C3A30E /* Dictionary+Add.swift in Sources */,
+				FEB4477F25204E44008D6C1A /* KeyboardStateListener.swift in Sources */,
+				FEB447AA2520D318008D6C1A /* AuthPresenter.swift in Sources */,
 				FEA9B207251FCB72003B1B29 /* AuthRemoteRepositoryProvider.swift in Sources */,
+				FEB447842520BF79008D6C1A /* AuthContract.swift in Sources */,
 				FEA9B221251FCDEE003B1B29 /* ResponseErrorHandler.swift in Sources */,
+				FEB4475525203587008D6C1A /* PasswordTextInputView.swift in Sources */,
 				FEA9B1FD251FC866003B1B29 /* AuthServiceProtocols.swift in Sources */,
-				FE90F0CB251EB762006F6691 /* ViewController.swift in Sources */,
+				FE8C552F252024A900AD8CE9 /* TextInputView.swift in Sources */,
 				FE90F0C7251EB762006F6691 /* AppDelegate.swift in Sources */,
 				FEA9B202251FCAA6003B1B29 /* AuthDataManager.swift in Sources */,
 				FEA9B1F8251FC71B003B1B29 /* AuthAPI.swift in Sources */,
+				FEB447C625214547008D6C1A /* String+IsEmpty.swift in Sources */,
 				FEA9B20C251FCBD7003B1B29 /* AuthAPIManager.swift in Sources */,
+				FEB447972520C4BE008D6C1A /* Protocols.swift in Sources */,
 				FECB3068251F833B00347901 /* Enterprise.swift in Sources */,
 				FEA9B1E1251FB849003B1B29 /* EnterpriseServiceProtocols.swift in Sources */,
 				FE90F0C9251EB762006F6691 /* SceneDelegate.swift in Sources */,
 				FEA9B216251FCD91003B1B29 /* ResponseError.swift in Sources */,
+				FEB4477925204B24008D6C1A /* UIView+Animation.swift in Sources */,
 				FE8C54AB251FEE5500AD8CE9 /* AuthPlugin.swift in Sources */,
 				FECB3074251F8F1E00347901 /* EnterpriseAPI.swift in Sources */,
 				FEA9B1DC251FB7C8003B1B29 /* EnterpriseRemoteRepositoryProvider.swift in Sources */,
 				FEA9B227251FD105003B1B29 /* AuthResponse.swift in Sources */,
+				FEB4476025203C84008D6C1A /* LoadingIndicator.swift in Sources */,
+				FE8C54E0252005C000AD8CE9 /* UIView+AddSubviewAndSetupConstraints.swift in Sources */,
+				FE8C551825201B8D00AD8CE9 /* UIColor+CustomColors.swift in Sources */,
+				FEB447922520C44E008D6C1A /* AuthRouter.swift in Sources */,
+				FEB4475A25203794008D6C1A /* EmailTextInputView.swift in Sources */,
+				FEB4479C2520C64B008D6C1A /* RootRouter.swift in Sources */,
 				FEA9B1F2251FB8EA003B1B29 /* EnterpriseAPIManager.swift in Sources */,
 				FE363DF8251FDEA600DABE8E /* AuthCredentials.swift in Sources */,
 				FE363DF3251FD9D600DABE8E /* AuthKeyChainManager.swift in Sources */,
+				FE8C54BF251FF2BE00AD8CE9 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,14 +820,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FE90F0CC251EB762006F6691 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FE90F0CD251EB762006F6691 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FE90F0D1251EB767006F6691 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

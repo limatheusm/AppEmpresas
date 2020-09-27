@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "inside_loading_indicator.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
