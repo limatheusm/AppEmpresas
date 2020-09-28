@@ -95,8 +95,8 @@ extension AuthViewController: AuthPresenterToViewProtocol {
 
 extension AuthViewController: TextInputViewDelegate {
     func textInputViewDidChange(_ textInputView: TextInputView) {
-        (textInputView as? EmailTextInputView)?.state = .normal
-        (textInputView as? PasswordTextInputView)?.state = .normal
+        self.emailTextInputView?.state = .normal
+        self.passwordTextInputView?.state = .normal
         self.errorLabel?.text = ""
     }
 }

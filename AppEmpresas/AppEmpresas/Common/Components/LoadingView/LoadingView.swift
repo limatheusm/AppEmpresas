@@ -12,10 +12,16 @@ class LoadingView: UIView {
     private let kDefaultAnimationDuration: TimeInterval = 0.3
     private let kRotationAnimationDuration: TimeInterval = 1.5
 
+    var loadingIndicator: LoadingIndicator?
+    
     func show(in view: UIView) {
         self.backgroundColor = .loadingBackground
         view.addSubviewAndSetupConstraints(self)
-        self.addSubviewAndSetupConstraints(LoadingIndicator())
+        self.loadingIndicator = LoadingIndicator()
+        
+        if let loadingIndicator = self.loadingIndicator {
+            self.addSubviewAndSetupConstraints(loadingIndicator)
+        }
         
         self.alpha = 0
         
@@ -28,6 +34,7 @@ class LoadingView: UIView {
         UIView.animate(withDuration: kDefaultAnimationDuration, delay: .zero, options: .curveEaseOut) {
             self.alpha = 0
         } completion: { _ in
+            self.loadingIndicator?.removeFromSuperview()
             self.removeFromSuperview()
         }
     }
