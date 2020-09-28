@@ -13,6 +13,7 @@ class SearchViewController: UIViewController {
     
     @IBOutlet private weak var searchTextField: UITextField?
     @IBOutlet private weak var tableView: UITableView?
+    @IBOutlet private weak var resultsCountLabel: UILabel?
     @IBOutlet private weak var searchContainerView: UIView?
     @IBOutlet private weak var headerTopConstraint: NSLayoutConstraint?
     @IBOutlet private weak var loadingIndicator: LoadingIndicator?
@@ -103,14 +104,16 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
 // MARK: - SearchPresenterToViewProtocol
 
 extension SearchViewController: SearchPresenterToViewProtocol {
-    func onSearchSuccess() {
+    func onSearchSuccess(resultsText: String) {
         let range = NSMakeRange(0, self.tableView?.numberOfSections ?? 0)
         let sections = NSIndexSet(indexesIn: range)
         self.tableView?.reloadSections(sections as IndexSet, with: .automatic)
+        self.resultsCountLabel?.text = resultsText
     }
     
     func onSearchFailure(errorMessage: String) {
         // TODO: Implement Error view [ML]
+        self.resultsCountLabel?.text = ""
     }
     
     func showLoading() {

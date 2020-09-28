@@ -69,7 +69,20 @@ extension SearchPresenter: SearchInteractorToPresenterProtocol {
     func fetchSearchSuccess(enterprises: [Enterprise]) {
         self.enterprises = enterprises
         self.view?.hideLoading()
-        self.view?.onSearchSuccess()
+        
+        let resultsText: String
+        switch enterprises.count {
+        case 0:
+            resultsText = "Nenhum resultado encontrado"
+        case 1:
+            resultsText = "1 resultado encontrado"
+        case 2...9:
+            resultsText = "0\(enterprises.count) resultados encontrados"
+        default:
+            resultsText = "\(enterprises.count) resultados encontrados"
+        }
+        
+        self.view?.onSearchSuccess(resultsText: resultsText)
     }
     
     func fetchSearchFailure(error: Error) {

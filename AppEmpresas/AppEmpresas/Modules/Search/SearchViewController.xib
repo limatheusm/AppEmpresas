@@ -8,6 +8,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="Rubik-Light.ttf">
+            <string>Rubik-Light</string>
+        </array>
         <array key="Rubik-Regular.ttf">
             <string>Rubik-Regular</string>
         </array>
@@ -17,6 +20,7 @@
             <connections>
                 <outlet property="headerTopConstraint" destination="vif-Al-6Mh" id="fuq-ft-GUB"/>
                 <outlet property="loadingIndicator" destination="s3K-bb-G4A" id="7lR-3B-21D"/>
+                <outlet property="resultsCountLabel" destination="TKr-zQ-voQ" id="DuU-ll-sxa"/>
                 <outlet property="searchContainerView" destination="v8M-1a-IPj" id="WNr-RB-Y7o"/>
                 <outlet property="searchTextField" destination="GnV-wW-3AG" id="ZYy-kb-BOr"/>
                 <outlet property="tableView" destination="czc-Kx-QwW" id="vfM-ie-iHs"/>
@@ -65,7 +69,7 @@
                     </userDefinedRuntimeAttributes>
                 </view>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="czc-Kx-QwW">
-                    <rect key="frame" x="0.0" y="228" width="414" height="668"/>
+                    <rect key="frame" x="0.0" y="264" width="414" height="632"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <connections>
                         <outlet property="dataSource" destination="-1" id="Sgd-O2-jLA"/>
@@ -80,11 +84,17 @@
                         <constraint firstAttribute="height" constant="72" id="cGx-55-VZl"/>
                     </constraints>
                 </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TKr-zQ-voQ">
+                    <rect key="frame" x="20" y="230" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" name="Rubik-Light" family="Rubik" pointSize="14"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="czc-Kx-QwW" firstAttribute="top" secondItem="v8M-1a-IPj" secondAttribute="bottom" constant="16" id="FSa-Uw-93C"/>
+                <constraint firstItem="czc-Kx-QwW" firstAttribute="top" secondItem="v8M-1a-IPj" secondAttribute="bottom" constant="52" id="FSa-Uw-93C"/>
                 <constraint firstItem="s3K-bb-G4A" firstAttribute="top" secondItem="v8M-1a-IPj" secondAttribute="bottom" constant="120" id="GTG-2z-Ble"/>
                 <constraint firstItem="s3K-bb-G4A" firstAttribute="centerX" secondItem="v8M-1a-IPj" secondAttribute="centerX" id="JdF-rj-iGo"/>
                 <constraint firstItem="v8M-1a-IPj" firstAttribute="bottom" secondItem="kGg-JC-Cpe" secondAttribute="bottom" constant="24" id="KZg-ma-J2m"/>
@@ -94,6 +104,8 @@
                 <constraint firstItem="v8M-1a-IPj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="cKu-5I-93l"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="v8M-1a-IPj" secondAttribute="trailing" constant="16" id="ej4-eB-Vix"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="czc-Kx-QwW" secondAttribute="trailing" id="gJ9-py-yjt"/>
+                <constraint firstItem="TKr-zQ-voQ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="jb0-K5-P9w"/>
+                <constraint firstItem="TKr-zQ-voQ" firstAttribute="top" secondItem="v8M-1a-IPj" secondAttribute="bottom" constant="18" id="kX5-uS-tFb"/>
                 <constraint firstAttribute="bottom" secondItem="czc-Kx-QwW" secondAttribute="bottom" id="pA4-5U-q3E"/>
                 <constraint firstItem="kGg-JC-Cpe" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="vif-Al-6Mh"/>
             </constraints>

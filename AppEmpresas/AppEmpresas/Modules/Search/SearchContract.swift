@@ -13,7 +13,7 @@ protocol SearchPresenterToViewProtocol: PresenterToViewProtocol {
     var presenter: SearchViewToPresenterProtocol? { get set }
     
     func onUserSessionExpired()
-    func onSearchSuccess()
+    func onSearchSuccess(resultsText: String)
     func onSearchFailure(errorMessage: String)
     func showLoading()
     func hideLoading()
