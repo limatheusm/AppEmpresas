@@ -32,11 +32,8 @@
                     <rect key="frame" x="0.0" y="218.5" width="414" height="48"/>
                     <subviews>
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6mW-gV-9X6" userLabel="TextField">
-                            <rect key="frame" x="12" y="12" width="350" height="24"/>
+                            <rect key="frame" x="12" y="4" width="350" height="40"/>
                             <color key="tintColor" red="0.87843137250000003" green="0.1176470588" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="24" id="fme-In-z9c"/>
-                            </constraints>
                             <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <fontDescription key="fontDescription" name="Rubik-Light" family="Rubik" pointSize="16"/>
                             <textInputTraits key="textInputTraits"/>
@@ -57,9 +54,10 @@
                         <constraint firstItem="6mW-gV-9X6" firstAttribute="leading" secondItem="DjU-xU-1WH" secondAttribute="leading" constant="12" id="AtS-EP-7jv"/>
                         <constraint firstAttribute="height" constant="48" id="BHh-IN-ij2"/>
                         <constraint firstItem="sQf-aJ-mTq" firstAttribute="leading" secondItem="6mW-gV-9X6" secondAttribute="trailing" constant="8" symbolic="YES" id="YOr-J2-yOs"/>
+                        <constraint firstItem="6mW-gV-9X6" firstAttribute="top" secondItem="DjU-xU-1WH" secondAttribute="top" constant="4" id="bWT-a5-CGi"/>
                         <constraint firstItem="sQf-aJ-mTq" firstAttribute="centerY" secondItem="6mW-gV-9X6" secondAttribute="centerY" id="d8f-rA-QGQ"/>
                         <constraint firstAttribute="trailing" secondItem="sQf-aJ-mTq" secondAttribute="trailing" constant="8" id="hWD-N0-a1c"/>
-                        <constraint firstItem="6mW-gV-9X6" firstAttribute="centerY" secondItem="DjU-xU-1WH" secondAttribute="centerY" id="sBl-54-zMZ"/>
+                        <constraint firstAttribute="bottom" secondItem="6mW-gV-9X6" secondAttribute="bottom" constant="4" id="y9s-l8-reA"/>
                     </constraints>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">

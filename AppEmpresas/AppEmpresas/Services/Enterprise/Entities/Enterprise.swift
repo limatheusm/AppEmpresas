@@ -27,6 +27,10 @@ struct Enterprise: Codable {
     let city, country: String?
     let enterpriseType: EnterpriseType?
     
+    var thumbnailURL: URL? {
+        return URL(string: "https://empresas.ioasys.com.br/\(self.photo ?? "")")
+    }
+    
     enum CodingKeys: String, CodingKey {
         case id, description, facebook, twitter, linkedin, phone, photo, value, shares, city, country
         case name = "enterprise_name"

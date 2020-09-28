@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Rubik-Regular.ttf">
+            <string>Rubik-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchViewController" customModule="AppEmpresas" customModuleProvider="target">
+            <connections>
+                <outlet property="headerTopConstraint" destination="vif-Al-6Mh" id="fuq-ft-GUB"/>
+                <outlet property="loadingIndicator" destination="s3K-bb-G4A" id="7lR-3B-21D"/>
+                <outlet property="searchContainerView" destination="v8M-1a-IPj" id="WNr-RB-Y7o"/>
+                <outlet property="searchTextField" destination="GnV-wW-3AG" id="ZYy-kb-BOr"/>
+                <outlet property="tableView" destination="czc-Kx-QwW" id="vfM-ie-iHs"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search_header" translatesAutoresizingMaskIntoConstraints="NO" id="kGg-JC-Cpe">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="188"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="188" id="1bo-4Y-qXF"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v8M-1a-IPj" userLabel="SearchView">
+                    <rect key="frame" x="16" y="164" width="382" height="48"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_search" translatesAutoresizingMaskIntoConstraints="NO" id="suI-q5-rmA">
+                            <rect key="frame" x="16" y="14" width="20" height="20"/>
+                        </imageView>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Pesquise por empresa" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GnV-wW-3AG">
+                            <rect key="frame" x="52" y="4" width="314" height="40"/>
+                            <color key="tintColor" red="0.87843137250000003" green="0.1176470588" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="18"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="5U7-tU-riJ"/>
+                        <constraint firstItem="GnV-wW-3AG" firstAttribute="top" secondItem="v8M-1a-IPj" secondAttribute="top" constant="4" id="6FG-eU-vef"/>
+                        <constraint firstAttribute="trailing" secondItem="GnV-wW-3AG" secondAttribute="trailing" constant="16" id="8dh-A9-ZwQ"/>
+                        <constraint firstAttribute="bottom" secondItem="GnV-wW-3AG" secondAttribute="bottom" constant="4" id="9rG-9G-Mve"/>
+                        <constraint firstItem="GnV-wW-3AG" firstAttribute="leading" secondItem="suI-q5-rmA" secondAttribute="trailing" constant="16" id="ffN-ZI-OP3"/>
+                        <constraint firstItem="suI-q5-rmA" firstAttribute="centerY" secondItem="v8M-1a-IPj" secondAttribute="centerY" id="gk3-FM-6aK"/>
+                        <constraint firstItem="suI-q5-rmA" firstAttribute="leading" secondItem="v8M-1a-IPj" secondAttribute="leading" constant="16" id="l4h-sU-71M"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="czc-Kx-QwW">
+                    <rect key="frame" x="0.0" y="228" width="414" height="668"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Sgd-O2-jLA"/>
+                        <outlet property="delegate" destination="-1" id="mdU-x5-GBe"/>
+                    </connections>
+                </tableView>
+                <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s3K-bb-G4A" userLabel="LoadingIndicator" customClass="LoadingIndicator" customModule="AppEmpresas" customModuleProvider="target">
+                    <rect key="frame" x="171" y="332" width="72" height="72"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="72" id="Q1Z-y7-CQ3"/>
+                        <constraint firstAttribute="height" constant="72" id="cGx-55-VZl"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="czc-Kx-QwW" firstAttribute="top" secondItem="v8M-1a-IPj" secondAttribute="bottom" constant="16" id="FSa-Uw-93C"/>
+                <constraint firstItem="s3K-bb-G4A" firstAttribute="top" secondItem="v8M-1a-IPj" secondAttribute="bottom" constant="120" id="GTG-2z-Ble"/>
+                <constraint firstItem="s3K-bb-G4A" firstAttribute="centerX" secondItem="v8M-1a-IPj" secondAttribute="centerX" id="JdF-rj-iGo"/>
+                <constraint firstItem="v8M-1a-IPj" firstAttribute="bottom" secondItem="kGg-JC-Cpe" secondAttribute="bottom" constant="24" id="KZg-ma-J2m"/>
+                <constraint firstItem="czc-Kx-QwW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Lci-z2-IXu"/>
+                <constraint firstItem="kGg-JC-Cpe" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="OI9-T0-wup"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="kGg-JC-Cpe" secondAttribute="trailing" id="ZKg-a1-K1W"/>
+                <constraint firstItem="v8M-1a-IPj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="cKu-5I-93l"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="v8M-1a-IPj" secondAttribute="trailing" constant="16" id="ej4-eB-Vix"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="czc-Kx-QwW" secondAttribute="trailing" id="gJ9-py-yjt"/>
+                <constraint firstAttribute="bottom" secondItem="czc-Kx-QwW" secondAttribute="bottom" id="pA4-5U-q3E"/>
+                <constraint firstItem="kGg-JC-Cpe" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="vif-Al-6Mh"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="109"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_search" width="20" height="20"/>
+        <image name="search_header" width="375" height="188"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

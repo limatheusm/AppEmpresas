@@ -10,6 +10,8 @@ import UIKit
 
 // MARK: View Output (Presenter -> View)
 protocol AuthPresenterToViewProtocol: PresenterToViewProtocol {
+    var presenter: AuthViewToPresenterProtocol? { get set }
+    
     func onFetchAuthSuccess()
     func onFetchAuthFailure(errorMessage: String)
     func showLoading()
@@ -29,6 +31,7 @@ protocol AuthViewToPresenterProtocol: ViewToPresenterProtocol {
 // MARK: Interactor Input (Presenter -> Interactor)
 protocol AuthPresenterToInteractorProtocol: PresenterToInteractorProtocol {
     var presenter: AuthInteractorToPresenterProtocol? { get set }
+    var repository: AuthRepository? { get set }
     
     func signIn(email: String, password: String)
 }

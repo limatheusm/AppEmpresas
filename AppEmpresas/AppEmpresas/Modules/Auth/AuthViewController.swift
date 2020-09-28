@@ -17,11 +17,17 @@ class AuthViewController: UIViewController {
     @IBOutlet private weak var emailTextInputView: EmailTextInputView?{
         didSet {
             self.emailTextInputView?.delegate = self
+            #if DEBUG
+            self.emailTextInputView?.textField?.text = "testeapple@ioasys.com.br"
+            #endif
         }
     }
     @IBOutlet private weak var passwordTextInputView: PasswordTextInputView? {
         didSet {
             self.passwordTextInputView?.delegate = self
+            #if DEBUG
+            self.passwordTextInputView?.textField?.text = "12341234"
+            #endif
         }
     }
     
@@ -65,12 +71,6 @@ class AuthViewController: UIViewController {
         self.hideKeyboard()
         self.presenter?.signIn(email: email, password: password)
     }
-    
-    // MARK: - Keyboard
-    
-    @objc private func hideKeyboard() {
-        self.view.endEditing(true)
-    }
 }
 
 // MARK: - AuthPresenterToViewProtocol
@@ -110,37 +110,23 @@ extension AuthViewController: TextInputViewDelegate {
 // MARK: - KeyboardStateListenerDelegate
 
 extension AuthViewController: KeyboardStateListenerDelegate {
-    func keyboardWillShow(_ keyboardStateListener: KeyboardStateListener, notification: Notification) {
-        guard let keyboardFrame = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue,
-              let duration = notification.userInfo?[UIResponder.keyboardAnimationDurationUserInfoKey] as? NSNumber,
-              let curve = notification.userInfo?[UIResponder.keyboardAnimationCurveUserInfoKey] as? NSNumber
-        else {
-            return
-        }
-        
-        let keyboardHeight = keyboardFrame.cgRectValue.size.height
+    func keyboardWillShow(_ keyboardStateListener: KeyboardStateListener, keyboardHeight: CGFloat,
+                          duration: Double, animationCurve: UIView.AnimationOptions) {
         self.headerTopConstraint?.constant = -(keyboardHeight / 3)
         self.logoTopConstraint?.constant = (self.logoTopConstraint?.constant ?? 0) / 2
         
-        UIView.animate(withDuration: duration.doubleValue, delay: .zero,
-                       options: UIView.AnimationOptions(rawValue: curve.uintValue)) {
+        UIView.animate(withDuration: duration, delay: .zero, options: animationCurve) {
             self.headerLabel?.alpha = 0
             self.view.layoutIfNeeded()
         }
     }
     
-    func keyboardWillHide(_ keyboardStateListener: KeyboardStateListener, notification: Notification) {
-        guard let duration = notification.userInfo?[UIResponder.keyboardAnimationDurationUserInfoKey] as? NSNumber,
-              let curve = notification.userInfo?[UIResponder.keyboardAnimationCurveUserInfoKey] as? NSNumber
-        else {
-            return
-        }
-        
+    func keyboardWillHide(_ keyboardStateListener: KeyboardStateListener, keyboardHeight: CGFloat,
+                          duration: Double, animationCurve: UIView.AnimationOptions) {
         self.headerTopConstraint?.constant = 0
         self.logoTopConstraint?.constant = kLogoTopConstraintDefaultValue
         
-        UIView.animate(withDuration: duration.doubleValue, delay: .zero,
-                       options: UIView.AnimationOptions(rawValue: curve.uintValue)) {
+        UIView.animate(withDuration: duration, delay: .zero, options: animationCurve) {
             self.headerLabel?.alpha = 1
             self.view.layoutIfNeeded()
         }

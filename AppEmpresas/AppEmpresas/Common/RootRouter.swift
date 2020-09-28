@@ -27,8 +27,9 @@ class RootRouter: RootRouterProtocol {
     }
     
     func switchRootViewController(isSignedIn: Bool) {
-        // TODO: Implement EnterpriseRouter [ML]
-        self.window?.rootViewController = isSignedIn ? UIViewController() : AuthRouter.createModule(rootRouter: self)
+        self.window?.rootViewController = isSignedIn
+            ? SearchRouter.createModule(rootRouter: self)
+            : AuthRouter.createModule(rootRouter: self)
         self.window?.makeKeyAndVisible()
     }
 }

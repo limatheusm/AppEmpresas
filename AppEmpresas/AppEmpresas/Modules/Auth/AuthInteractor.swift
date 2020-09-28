@@ -8,17 +8,16 @@
 import Foundation
 
 class AuthInteractor: AuthPresenterToInteractorProtocol {
+    var repository: AuthRepository?
     // MARK: - Output
     weak var presenter: AuthInteractorToPresenterProtocol?
-    
-    private let repository: AuthRepository
     
     init(repository: AuthRepository = AuthDataManager()) {
         self.repository = repository
     }
     
     func signIn(email: String, password: String) {
-        self.repository.signIn(email: email, password: password) { [weak self] result in
+        self.repository?.signIn(email: email, password: password) { [weak self] result in
             switch result {
             case .failure(let error):
                 self?.presenter?.fetchAuthFailure(error: error)

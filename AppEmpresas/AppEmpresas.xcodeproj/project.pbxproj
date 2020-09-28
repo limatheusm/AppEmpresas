@@ -66,6 +66,16 @@
 		FEB447AA2520D318008D6C1A /* AuthPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB447A92520D318008D6C1A /* AuthPresenter.swift */; };
 		FEB447AF2520D323008D6C1A /* AuthInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB447AE2520D323008D6C1A /* AuthInteractor.swift */; };
 		FEB447C625214547008D6C1A /* String+IsEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB447C525214547008D6C1A /* String+IsEmpty.swift */; };
+		FEB447DD25215684008D6C1A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB447DB25215684008D6C1A /* SearchViewController.swift */; };
+		FEB447DE25215684008D6C1A /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB447DC25215684008D6C1A /* SearchViewController.xib */; };
+		FEB447E6252156C4008D6C1A /* SearchContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB447E5252156C4008D6C1A /* SearchContract.swift */; };
+		FEB447EB252156D9008D6C1A /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB447EA252156D9008D6C1A /* SearchRouter.swift */; };
+		FEB447F0252156E3008D6C1A /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB447EF252156E3008D6C1A /* SearchPresenter.swift */; };
+		FEB447F5252156EF008D6C1A /* SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB447F4252156EF008D6C1A /* SearchInteractor.swift */; };
+		FEB448002521665F008D6C1A /* UIViewController+HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB447FF2521665F008D6C1A /* UIViewController+HideKeyboard.swift */; };
+		FEB4480725216F8A008D6C1A /* EnterpriseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB4480525216F8A008D6C1A /* EnterpriseCell.swift */; };
+		FEB4480825216F8A008D6C1A /* EnterpriseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB4480625216F8A008D6C1A /* EnterpriseCell.xib */; };
+		FEB4481725220F3F008D6C1A /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB4481625220F3D008D6C1A /* UIViewController+Alert.swift */; };
 		FECB3068251F833B00347901 /* Enterprise.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECB3067251F833B00347901 /* Enterprise.swift */; };
 		FECB3074251F8F1E00347901 /* EnterpriseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECB3073251F8F1E00347901 /* EnterpriseAPI.swift */; };
 /* End PBXBuildFile section */
@@ -159,6 +169,16 @@
 		FEB447A92520D318008D6C1A /* AuthPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPresenter.swift; sourceTree = "<group>"; };
 		FEB447AE2520D323008D6C1A /* AuthInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthInteractor.swift; sourceTree = "<group>"; };
 		FEB447C525214547008D6C1A /* String+IsEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+IsEmpty.swift"; sourceTree = "<group>"; };
+		FEB447DB25215684008D6C1A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		FEB447DC25215684008D6C1A /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		FEB447E5252156C4008D6C1A /* SearchContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchContract.swift; sourceTree = "<group>"; };
+		FEB447EA252156D9008D6C1A /* SearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
+		FEB447EF252156E3008D6C1A /* SearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
+		FEB447F4252156EF008D6C1A /* SearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractor.swift; sourceTree = "<group>"; };
+		FEB447FF2521665F008D6C1A /* UIViewController+HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+HideKeyboard.swift"; sourceTree = "<group>"; };
+		FEB4480525216F8A008D6C1A /* EnterpriseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterpriseCell.swift; sourceTree = "<group>"; };
+		FEB4480625216F8A008D6C1A /* EnterpriseCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterpriseCell.xib; sourceTree = "<group>"; };
+		FEB4481625220F3D008D6C1A /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		FECB3067251F833B00347901 /* Enterprise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enterprise.swift; sourceTree = "<group>"; };
 		FECB3073251F8F1E00347901 /* EnterpriseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterpriseAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -230,6 +250,8 @@
 				FE8C551725201B8D00AD8CE9 /* UIColor+CustomColors.swift */,
 				FEB4477825204B24008D6C1A /* UIView+Animation.swift */,
 				FEB447C525214547008D6C1A /* String+IsEmpty.swift */,
+				FEB447FF2521665F008D6C1A /* UIViewController+HideKeyboard.swift */,
+				FEB4481625220F3D008D6C1A /* UIViewController+Alert.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -246,6 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				FE8C54B0251FF1AC00AD8CE9 /* Auth */,
+				FEB447DA25215665008D6C1A /* Search */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -452,6 +475,29 @@
 			path = App;
 			sourceTree = "<group>";
 		};
+		FEB447DA25215665008D6C1A /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				FEB4480425216F69008D6C1A /* Cells */,
+				FEB447DB25215684008D6C1A /* SearchViewController.swift */,
+				FEB447DC25215684008D6C1A /* SearchViewController.xib */,
+				FEB447E5252156C4008D6C1A /* SearchContract.swift */,
+				FEB447EA252156D9008D6C1A /* SearchRouter.swift */,
+				FEB447EF252156E3008D6C1A /* SearchPresenter.swift */,
+				FEB447F4252156EF008D6C1A /* SearchInteractor.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		FEB4480425216F69008D6C1A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FEB4480525216F8A008D6C1A /* EnterpriseCell.swift */,
+				FEB4480625216F8A008D6C1A /* EnterpriseCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		FECB3066251F81D600347901 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
@@ -607,6 +653,7 @@
 				FE8C55082520193200AD8CE9 /* Rubik-SemiBold.ttf in Resources */,
 				FE8C550D2520193200AD8CE9 /* Rubik-LightItalic.ttf in Resources */,
 				FE90F0D3251EB767006F6691 /* LaunchScreen.storyboard in Resources */,
+				FEB4480825216F8A008D6C1A /* EnterpriseCell.xib in Resources */,
 				FE8C55012520193200AD8CE9 /* Rubik-BlackItalic.ttf in Resources */,
 				FE8C550B2520193200AD8CE9 /* Rubik-Bold.ttf in Resources */,
 				FEB4476825204580008D6C1A /* LoadingIndicator.xib in Resources */,
@@ -620,6 +667,7 @@
 				FE8C55052520193200AD8CE9 /* Rubik-Light.ttf in Resources */,
 				FE8C550E2520193200AD8CE9 /* Rubik-Regular.ttf in Resources */,
 				FE8C550C2520193200AD8CE9 /* Rubik-SemiBoldItalic.ttf in Resources */,
+				FEB447DE25215684008D6C1A /* SearchViewController.xib in Resources */,
 				FE8C55032520193200AD8CE9 /* Rubik-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -748,11 +796,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEB4481725220F3F008D6C1A /* UIViewController+Alert.swift in Sources */,
 				FEB447AF2520D323008D6C1A /* AuthInteractor.swift in Sources */,
 				FE8C54B3251FF1C500AD8CE9 /* AuthViewController.swift in Sources */,
 				FEA3A24A251ECA8B009B4994 /* EnterpriseDataManager.swift in Sources */,
 				FE739DC8251F76AA00C3A30E /* Dictionary+Add.swift in Sources */,
+				FEB447DD25215684008D6C1A /* SearchViewController.swift in Sources */,
 				FEB4477F25204E44008D6C1A /* KeyboardStateListener.swift in Sources */,
+				FEB447F5252156EF008D6C1A /* SearchInteractor.swift in Sources */,
 				FEB447AA2520D318008D6C1A /* AuthPresenter.swift in Sources */,
 				FEA9B207251FCB72003B1B29 /* AuthRemoteRepositoryProvider.swift in Sources */,
 				FEB447842520BF79008D6C1A /* AuthContract.swift in Sources */,
@@ -766,7 +817,9 @@
 				FEB447C625214547008D6C1A /* String+IsEmpty.swift in Sources */,
 				FEA9B20C251FCBD7003B1B29 /* AuthAPIManager.swift in Sources */,
 				FEB447972520C4BE008D6C1A /* Protocols.swift in Sources */,
+				FEB447E6252156C4008D6C1A /* SearchContract.swift in Sources */,
 				FECB3068251F833B00347901 /* Enterprise.swift in Sources */,
+				FEB447F0252156E3008D6C1A /* SearchPresenter.swift in Sources */,
 				FEA9B1E1251FB849003B1B29 /* EnterpriseServiceProtocols.swift in Sources */,
 				FE90F0C9251EB762006F6691 /* SceneDelegate.swift in Sources */,
 				FEA9B216251FCD91003B1B29 /* ResponseError.swift in Sources */,
@@ -780,8 +833,11 @@
 				FE8C551825201B8D00AD8CE9 /* UIColor+CustomColors.swift in Sources */,
 				FEB447922520C44E008D6C1A /* AuthRouter.swift in Sources */,
 				FEB4475A25203794008D6C1A /* EmailTextInputView.swift in Sources */,
+				FEB4480725216F8A008D6C1A /* EnterpriseCell.swift in Sources */,
 				FEB4479C2520C64B008D6C1A /* RootRouter.swift in Sources */,
 				FEA9B1F2251FB8EA003B1B29 /* EnterpriseAPIManager.swift in Sources */,
+				FEB448002521665F008D6C1A /* UIViewController+HideKeyboard.swift in Sources */,
+				FEB447EB252156D9008D6C1A /* SearchRouter.swift in Sources */,
 				FE363DF8251FDEA600DABE8E /* AuthCredentials.swift in Sources */,
 				FE363DF3251FD9D600DABE8E /* AuthKeyChainManager.swift in Sources */,
 				FE8C54BF251FF2BE00AD8CE9 /* LoadingView.swift in Sources */,

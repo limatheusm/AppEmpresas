@@ -8,6 +8,7 @@ target 'AppEmpresas' do
   # Pods for AppEmpresas
   pod 'Moya'
   pod 'KeychainSwift'
+  pod 'Kingfisher'
 
   target 'AppEmpresasTests' do
     inherit! :search_paths
