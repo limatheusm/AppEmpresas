@@ -56,6 +56,8 @@ protocol SearchInteractorToPresenterProtocol: InteractorToPresenterProtocol {
 // MARK: Router Input (Presenter -> Router)
 protocol SearchPresenterToRouterProtocol: PresenterToRouterProtocol {
     static func createModule(rootRouter: RootRouterProtocol) -> UINavigationController
+    var context: UINavigationController { get set }
     
     func switchToSignOut()
+    func push(destination: SearchDestination)
 }

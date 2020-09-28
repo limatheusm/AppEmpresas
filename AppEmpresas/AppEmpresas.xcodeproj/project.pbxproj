@@ -41,6 +41,8 @@
 		FE90F0D3251EB767006F6691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE90F0D1251EB767006F6691 /* LaunchScreen.storyboard */; };
 		FE90F0DE251EB767006F6691 /* AppEmpresasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE90F0DD251EB767006F6691 /* AppEmpresasTests.swift */; };
 		FE90F0E9251EB767006F6691 /* AppEmpresasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE90F0E8251EB767006F6691 /* AppEmpresasUITests.swift */; };
+		FE9267D725224EEC00884448 /* EnterpriseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9267D525224EEC00884448 /* EnterpriseDetailsViewController.swift */; };
+		FE9267D825224EEC00884448 /* EnterpriseDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE9267D625224EEC00884448 /* EnterpriseDetailsViewController.xib */; };
 		FEA3A24A251ECA8B009B4994 /* EnterpriseDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA3A249251ECA8B009B4994 /* EnterpriseDataManager.swift */; };
 		FEA9B1DC251FB7C8003B1B29 /* EnterpriseRemoteRepositoryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9B1DB251FB7C8003B1B29 /* EnterpriseRemoteRepositoryProvider.swift */; };
 		FEA9B1E1251FB849003B1B29 /* EnterpriseServiceProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA9B1E0251FB849003B1B29 /* EnterpriseServiceProtocols.swift */; };
@@ -61,7 +63,6 @@
 		FEB4477F25204E44008D6C1A /* KeyboardStateListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB4477E25204E44008D6C1A /* KeyboardStateListener.swift */; };
 		FEB447842520BF79008D6C1A /* AuthContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB447832520BF79008D6C1A /* AuthContract.swift */; };
 		FEB447922520C44E008D6C1A /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB447912520C44E008D6C1A /* AuthRouter.swift */; };
-		FEB447972520C4BE008D6C1A /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB447962520C4BE008D6C1A /* Protocols.swift */; };
 		FEB4479C2520C64B008D6C1A /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB4479B2520C64B008D6C1A /* RootRouter.swift */; };
 		FEB447AA2520D318008D6C1A /* AuthPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB447A92520D318008D6C1A /* AuthPresenter.swift */; };
 		FEB447AF2520D323008D6C1A /* AuthInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB447AE2520D323008D6C1A /* AuthInteractor.swift */; };
@@ -78,6 +79,10 @@
 		FEB4481725220F3F008D6C1A /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB4481625220F3D008D6C1A /* UIViewController+Alert.swift */; };
 		FECB3068251F833B00347901 /* Enterprise.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECB3067251F833B00347901 /* Enterprise.swift */; };
 		FECB3074251F8F1E00347901 /* EnterpriseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECB3073251F8F1E00347901 /* EnterpriseAPI.swift */; };
+		FED8081225227AEC00F7F579 /* EnterpriseDetailsContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED8081125227AEC00F7F579 /* EnterpriseDetailsContract.swift */; };
+		FED8081725227AFD00F7F579 /* EnterpriseDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED8081625227AFD00F7F579 /* EnterpriseDetailsRouter.swift */; };
+		FED8081C25227B0500F7F579 /* EnterpriseDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED8081B25227B0500F7F579 /* EnterpriseDetailsPresenter.swift */; };
+		FED8082425227F7800F7F579 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED8082325227F7800F7F579 /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,6 +149,8 @@
 		FE90F0E4251EB767006F6691 /* AppEmpresasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppEmpresasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE90F0E8251EB767006F6691 /* AppEmpresasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEmpresasUITests.swift; sourceTree = "<group>"; };
 		FE90F0EA251EB767006F6691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE9267D525224EEC00884448 /* EnterpriseDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterpriseDetailsViewController.swift; sourceTree = "<group>"; };
+		FE9267D625224EEC00884448 /* EnterpriseDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterpriseDetailsViewController.xib; sourceTree = "<group>"; };
 		FEA3A249251ECA8B009B4994 /* EnterpriseDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterpriseDataManager.swift; sourceTree = "<group>"; };
 		FEA9B1DB251FB7C8003B1B29 /* EnterpriseRemoteRepositoryProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterpriseRemoteRepositoryProvider.swift; sourceTree = "<group>"; };
 		FEA9B1E0251FB849003B1B29 /* EnterpriseServiceProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterpriseServiceProtocols.swift; sourceTree = "<group>"; };
@@ -164,7 +171,6 @@
 		FEB4477E25204E44008D6C1A /* KeyboardStateListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardStateListener.swift; sourceTree = "<group>"; };
 		FEB447832520BF79008D6C1A /* AuthContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthContract.swift; sourceTree = "<group>"; };
 		FEB447912520C44E008D6C1A /* AuthRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
-		FEB447962520C4BE008D6C1A /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		FEB4479B2520C64B008D6C1A /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
 		FEB447A92520D318008D6C1A /* AuthPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPresenter.swift; sourceTree = "<group>"; };
 		FEB447AE2520D323008D6C1A /* AuthInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthInteractor.swift; sourceTree = "<group>"; };
@@ -181,6 +187,10 @@
 		FEB4481625220F3D008D6C1A /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		FECB3067251F833B00347901 /* Enterprise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enterprise.swift; sourceTree = "<group>"; };
 		FECB3073251F8F1E00347901 /* EnterpriseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterpriseAPI.swift; sourceTree = "<group>"; };
+		FED8081125227AEC00F7F579 /* EnterpriseDetailsContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterpriseDetailsContract.swift; sourceTree = "<group>"; };
+		FED8081625227AFD00F7F579 /* EnterpriseDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterpriseDetailsRouter.swift; sourceTree = "<group>"; };
+		FED8081B25227B0500F7F579 /* EnterpriseDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterpriseDetailsPresenter.swift; sourceTree = "<group>"; };
+		FED8082325227F7800F7F579 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +279,7 @@
 			children = (
 				FE8C54B0251FF1AC00AD8CE9 /* Auth */,
 				FEB447DA25215665008D6C1A /* Search */,
+				FE9267D425224ED700884448 /* EnterpriseDetails */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -291,7 +302,7 @@
 			children = (
 				FEB4477D25204E37008D6C1A /* Listeners */,
 				FE8C54BC251FF2A200AD8CE9 /* Components */,
-				FEB447962520C4BE008D6C1A /* Protocols.swift */,
+				FED8082325227F7800F7F579 /* Protocols.swift */,
 				FEB4479B2520C64B008D6C1A /* RootRouter.swift */,
 			);
 			path = Common;
@@ -399,6 +410,18 @@
 				FE90F0EA251EB767006F6691 /* Info.plist */,
 			);
 			path = AppEmpresasUITests;
+			sourceTree = "<group>";
+		};
+		FE9267D425224ED700884448 /* EnterpriseDetails */ = {
+			isa = PBXGroup;
+			children = (
+				FE9267D525224EEC00884448 /* EnterpriseDetailsViewController.swift */,
+				FE9267D625224EEC00884448 /* EnterpriseDetailsViewController.xib */,
+				FED8081125227AEC00F7F579 /* EnterpriseDetailsContract.swift */,
+				FED8081625227AFD00F7F579 /* EnterpriseDetailsRouter.swift */,
+				FED8081B25227B0500F7F579 /* EnterpriseDetailsPresenter.swift */,
+			);
+			path = EnterpriseDetails;
 			sourceTree = "<group>";
 		};
 		FEA9B1D5251FAB28003B1B29 /* Security */ = {
@@ -656,6 +679,7 @@
 				FEB4480825216F8A008D6C1A /* EnterpriseCell.xib in Resources */,
 				FE8C55012520193200AD8CE9 /* Rubik-BlackItalic.ttf in Resources */,
 				FE8C550B2520193200AD8CE9 /* Rubik-Bold.ttf in Resources */,
+				FE9267D825224EEC00884448 /* EnterpriseDetailsViewController.xib in Resources */,
 				FEB4476825204580008D6C1A /* LoadingIndicator.xib in Resources */,
 				FE8C55042520193200AD8CE9 /* Rubik-ExtraBoldItalic.ttf in Resources */,
 				FE90F0D0251EB767006F6691 /* Assets.xcassets in Resources */,
@@ -805,6 +829,7 @@
 				FEB4477F25204E44008D6C1A /* KeyboardStateListener.swift in Sources */,
 				FEB447F5252156EF008D6C1A /* SearchInteractor.swift in Sources */,
 				FEB447AA2520D318008D6C1A /* AuthPresenter.swift in Sources */,
+				FED8082425227F7800F7F579 /* Protocols.swift in Sources */,
 				FEA9B207251FCB72003B1B29 /* AuthRemoteRepositoryProvider.swift in Sources */,
 				FEB447842520BF79008D6C1A /* AuthContract.swift in Sources */,
 				FEA9B221251FCDEE003B1B29 /* ResponseErrorHandler.swift in Sources */,
@@ -816,10 +841,10 @@
 				FEA9B1F8251FC71B003B1B29 /* AuthAPI.swift in Sources */,
 				FEB447C625214547008D6C1A /* String+IsEmpty.swift in Sources */,
 				FEA9B20C251FCBD7003B1B29 /* AuthAPIManager.swift in Sources */,
-				FEB447972520C4BE008D6C1A /* Protocols.swift in Sources */,
 				FEB447E6252156C4008D6C1A /* SearchContract.swift in Sources */,
 				FECB3068251F833B00347901 /* Enterprise.swift in Sources */,
 				FEB447F0252156E3008D6C1A /* SearchPresenter.swift in Sources */,
+				FED8081225227AEC00F7F579 /* EnterpriseDetailsContract.swift in Sources */,
 				FEA9B1E1251FB849003B1B29 /* EnterpriseServiceProtocols.swift in Sources */,
 				FE90F0C9251EB762006F6691 /* SceneDelegate.swift in Sources */,
 				FEA9B216251FCD91003B1B29 /* ResponseError.swift in Sources */,
@@ -827,6 +852,7 @@
 				FE8C54AB251FEE5500AD8CE9 /* AuthPlugin.swift in Sources */,
 				FECB3074251F8F1E00347901 /* EnterpriseAPI.swift in Sources */,
 				FEA9B1DC251FB7C8003B1B29 /* EnterpriseRemoteRepositoryProvider.swift in Sources */,
+				FED8081725227AFD00F7F579 /* EnterpriseDetailsRouter.swift in Sources */,
 				FEA9B227251FD105003B1B29 /* AuthResponse.swift in Sources */,
 				FEB4476025203C84008D6C1A /* LoadingIndicator.swift in Sources */,
 				FE8C54E0252005C000AD8CE9 /* UIView+AddSubviewAndSetupConstraints.swift in Sources */,
@@ -835,9 +861,11 @@
 				FEB4475A25203794008D6C1A /* EmailTextInputView.swift in Sources */,
 				FEB4480725216F8A008D6C1A /* EnterpriseCell.swift in Sources */,
 				FEB4479C2520C64B008D6C1A /* RootRouter.swift in Sources */,
+				FED8081C25227B0500F7F579 /* EnterpriseDetailsPresenter.swift in Sources */,
 				FEA9B1F2251FB8EA003B1B29 /* EnterpriseAPIManager.swift in Sources */,
 				FEB448002521665F008D6C1A /* UIViewController+HideKeyboard.swift in Sources */,
 				FEB447EB252156D9008D6C1A /* SearchRouter.swift in Sources */,
+				FE9267D725224EEC00884448 /* EnterpriseDetailsViewController.swift in Sources */,
 				FE363DF8251FDEA600DABE8E /* AuthCredentials.swift in Sources */,
 				FE363DF3251FD9D600DABE8E /* AuthKeyChainManager.swift in Sources */,
 				FE8C54BF251FF2BE00AD8CE9 /* LoadingView.swift in Sources */,

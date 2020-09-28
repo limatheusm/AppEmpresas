@@ -27,7 +27,7 @@ class SearchPresenter: SearchViewToPresenterProtocol {
     }
     
     func didSelectRow(at index: Int) {
-        // TODO: Route with index [ML]
+        self.router?.push(destination: .enterpriseDetails(enterprise: self.enterprises[index]))
     }
     
     func enterpriseForRow(at index: Int) -> Enterprise {

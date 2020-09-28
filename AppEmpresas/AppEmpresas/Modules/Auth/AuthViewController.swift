@@ -17,17 +17,11 @@ class AuthViewController: UIViewController {
     @IBOutlet private weak var emailTextInputView: EmailTextInputView?{
         didSet {
             self.emailTextInputView?.delegate = self
-            #if DEBUG
-            self.emailTextInputView?.textField?.text = "testeapple@ioasys.com.br"
-            #endif
         }
     }
     @IBOutlet private weak var passwordTextInputView: PasswordTextInputView? {
         didSet {
             self.passwordTextInputView?.delegate = self
-            #if DEBUG
-            self.passwordTextInputView?.textField?.text = "12341234"
-            #endif
         }
     }
     
