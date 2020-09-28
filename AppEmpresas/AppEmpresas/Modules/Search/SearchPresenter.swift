@@ -73,7 +73,7 @@ extension SearchPresenter: SearchInteractorToPresenterProtocol {
         let resultsText: String
         switch enterprises.count {
         case 0:
-            resultsText = "Nenhum resultado encontrado"
+            resultsText = ""
         case 1:
             resultsText = "1 resultado encontrado"
         case 2...9:
@@ -82,6 +82,7 @@ extension SearchPresenter: SearchInteractorToPresenterProtocol {
             resultsText = "\(enterprises.count) resultados encontrados"
         }
         
+        self.view?.setEmptyResultsLabelVisibility(isHidden: enterprises.count > 0)
         self.view?.onSearchSuccess(resultsText: resultsText)
     }
     

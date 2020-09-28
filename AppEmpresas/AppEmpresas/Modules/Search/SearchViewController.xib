@@ -18,6 +18,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchViewController" customModule="AppEmpresas" customModuleProvider="target">
             <connections>
+                <outlet property="emptyResultsLabel" destination="MYh-ao-Zg3" id="Dfl-hk-OIm"/>
                 <outlet property="headerTopConstraint" destination="vif-Al-6Mh" id="fuq-ft-GUB"/>
                 <outlet property="loadingIndicator" destination="s3K-bb-G4A" id="7lR-3B-21D"/>
                 <outlet property="resultsCountLabel" destination="TKr-zQ-voQ" id="DuU-ll-sxa"/>
@@ -68,6 +69,12 @@
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </view>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nenhum resultado encontrado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MYh-ao-Zg3">
+                    <rect key="frame" x="110" y="332" width="194" height="17"/>
+                    <fontDescription key="fontDescription" name="Rubik-Light" family="Rubik" pointSize="14"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="czc-Kx-QwW">
                     <rect key="frame" x="0.0" y="264" width="414" height="632"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -99,6 +106,7 @@
                 <constraint firstItem="s3K-bb-G4A" firstAttribute="centerX" secondItem="v8M-1a-IPj" secondAttribute="centerX" id="JdF-rj-iGo"/>
                 <constraint firstItem="v8M-1a-IPj" firstAttribute="bottom" secondItem="kGg-JC-Cpe" secondAttribute="bottom" constant="24" id="KZg-ma-J2m"/>
                 <constraint firstItem="czc-Kx-QwW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Lci-z2-IXu"/>
+                <constraint firstItem="MYh-ao-Zg3" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="Nwp-5C-lOE"/>
                 <constraint firstItem="kGg-JC-Cpe" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="OI9-T0-wup"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="kGg-JC-Cpe" secondAttribute="trailing" id="ZKg-a1-K1W"/>
                 <constraint firstItem="v8M-1a-IPj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="cKu-5I-93l"/>
@@ -107,6 +115,7 @@
                 <constraint firstItem="TKr-zQ-voQ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="jb0-K5-P9w"/>
                 <constraint firstItem="TKr-zQ-voQ" firstAttribute="top" secondItem="v8M-1a-IPj" secondAttribute="bottom" constant="18" id="kX5-uS-tFb"/>
                 <constraint firstAttribute="bottom" secondItem="czc-Kx-QwW" secondAttribute="bottom" id="pA4-5U-q3E"/>
+                <constraint firstItem="MYh-ao-Zg3" firstAttribute="top" secondItem="v8M-1a-IPj" secondAttribute="bottom" constant="120" id="vOE-0d-7zY"/>
                 <constraint firstItem="kGg-JC-Cpe" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="vif-Al-6Mh"/>
             </constraints>
             <point key="canvasLocation" x="139" y="109"/>

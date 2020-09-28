@@ -19,6 +19,7 @@ protocol SearchPresenterToViewProtocol: PresenterToViewProtocol {
     func hideLoading()
     func updateHeader(isClosed: Bool)
     func closeKeyboard()
+    func setEmptyResultsLabelVisibility(isHidden: Bool)
 }
 
 // MARK: View Input (View -> Presenter)

@@ -14,6 +14,7 @@ class SearchViewController: UIViewController {
     @IBOutlet private weak var searchTextField: UITextField?
     @IBOutlet private weak var tableView: UITableView?
     @IBOutlet private weak var resultsCountLabel: UILabel?
+    @IBOutlet private weak var emptyResultsLabel: UILabel?
     @IBOutlet private weak var searchContainerView: UIView?
     @IBOutlet private weak var headerTopConstraint: NSLayoutConstraint?
     @IBOutlet private weak var loadingIndicator: LoadingIndicator?
@@ -114,6 +115,10 @@ extension SearchViewController: SearchPresenterToViewProtocol {
     func onSearchFailure(errorMessage: String) {
         // TODO: Implement Error view [ML]
         self.resultsCountLabel?.text = ""
+    }
+    
+    func setEmptyResultsLabelVisibility(isHidden: Bool) {
+        self.emptyResultsLabel?.isHidden = isHidden
     }
     
     func showLoading() {
